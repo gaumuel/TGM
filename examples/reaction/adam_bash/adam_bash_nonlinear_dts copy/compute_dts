@@ -1,0 +1,6 @@
+#!/bin/bash
+mpirun -n 6 ../../ex02-opt -i cn_dt_1.i
+mpirun -n 6 ../../ex02-opt -i cn_dt_05.i 
+mpirun -n 6 ../../ex02-opt -i cn_dt_0250.i
+mpirun -n 6 ../../ex02-opt -i cn_dt_0125.i
+mpirun -n 6 ../../ex02-opt -i cn_dt_00625.i
